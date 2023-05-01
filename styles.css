@@ -1,0 +1,88 @@
+
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+    }
+   div.container{
+    border: 5px solid #585252;
+    width: 100%;
+    margin: 0 auto 0 auto;
+   }
+
+
+
+header{
+ font-family:Arial, Helvetica, sans-serif;
+ font-variant: small-caps;
+color: #585252;
+   background-color: rgb(233, 231, 223);
+  text-align: center;
+}
+.center {
+   
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 10%;
+   border-color: 10px solid rgb(55, 55, 55);
+ }
+   .hero img{
+    width: 20%;
+   }
+   div.left, div.middle, div.right{
+    border: 5px solid rgb(183, 183, 183); 
+   width: 20%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 20px;
+   } 
+
+   aside img{
+    width: 100%;
+   } 
+
+   aside{ 
+    display: flex;
+    justify-content: space-between;
+   }
+
+   nav{
+    background-color: rgb(179, 179, 179);
+    border-color: #585252;
+   }
+
+   ul{
+    text-align: center;
+   }
+
+   li{
+   margin-top: 5px;
+   margin-bottom: 5px;
+    display: inline-block;
+    width: 150px;
+    border: 2px solid #585252;
+    line-height: 2em;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-variant: small-caps;
+    font-weight: bolder;
+    font-size: small;
+   }
+
+   a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 3px solid rgb(255, 255, 255);
+    border-bottom: 0cm;
+    display: block;
+
+   }
+footer{
+  margin-top: 100px;
+font-family: Arial, Helvetica, sans-serif;
+font-style: italic;
+font-variant: small-caps;
+font-size: small;
+color: #585252;
+font-weight: bolder;
+}
